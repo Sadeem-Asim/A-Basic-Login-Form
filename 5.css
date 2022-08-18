@@ -1,0 +1,93 @@
+.view {
+  height: 100vh;
+}
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  background: no-repeat center center/cover;
+}
+body .video-container video {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 10;
+  right: 10;
+  object-fit: cover;
+}
+.login-form {
+  position: relative;
+  z-index: 2;
+  margin: 0 auto;
+  margin-top: 150px;
+  background-color: rgba(102, 41, 160, 0.295);
+  max-width: 420px;
+}
+.login-form .subtitle {
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  font-size: 28px;
+  line-height: 33px;
+  padding-top: 20px;
+}
+.subtitle::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 400px;
+  margin: 20px 0;
+  background-color: rgba(102, 41, 160, 0.295);
+}
+.login-form .input {
+  width: 100%;
+  padding: 0 10px;
+  background: transparent;
+  border: 1px solid transparent;
+  border-bottom: 1px solid white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: 10px;
+  color: white;
+  text-transform: none;
+}
+.password {
+  padding-top: 20px;
+}
+span {
+  color: white;
+  padding-left: 10px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+ul li {
+  margin-top: 40px;
+}
+ul li a {
+  text-decoration: none;
+}
+ul .login {
+  border: 1px solid transparent;
+  text-align: center;
+  width: 75px;
+  padding: 1px;
+  border-radius: 9px;
+  margin-left: 129px;
+}
+ul .forgot {
+  font-size: 15px;
+  color: white;
+  margin-left: 115px;
+}
+ul .sign {
+  font-size: 15px;
+  color: white;
+  margin-left: 63px;
+}
